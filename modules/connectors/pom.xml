@@ -53,7 +53,7 @@
                             </artifactItems>
                         </configuration>
                     </execution>
-                    <!-- Download x509 authenticator jar from nexus and copy to the authenticatorCopied/jar folder-->
+                    <!-- Download x509Certificate authenticator jar from nexus and copy to the authenticatorCopied/jar folder-->
                     <execution>
                         <id>download_x509</id>
                         <phase>compile</phase>

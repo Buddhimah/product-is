@@ -499,9 +499,9 @@ public class OAuth2ServiceAbstractIntegrationTest extends ISIntegrationTest {
     }
 
 	/**
-	 * Convert a x509 certificate to pem format.
+	 * Convert a x509Certificate certificate to pem format.
 	 *
-	 * @param x509Certificate Certificate in x509 format.
+	 * @param x509Certificate Certificate in x509Certificate format.
 	 * @return Certificate in pem format.
 	 * @throws CertificateEncodingException
 	 */
