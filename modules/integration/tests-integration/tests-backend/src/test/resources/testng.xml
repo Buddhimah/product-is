@@ -185,6 +185,7 @@
             <class name="org.wso2.identity.integration.test.saml.RegistryMountTestCase"/>
             <!--<class name="org.wso2.identity.integration.test.saml.SAMLECPSSOTestCase"/>-->
             <class name="org.wso2.identity.integration.test.user.profile.mgt.UserProfileAdminTestCase"/>
+            <class name="org.wso2.identity.integration.test.scim2.SCIM2WithCustomUserOperationListenerTestCase"/>
         </classes>
     </test>
 </suite>
