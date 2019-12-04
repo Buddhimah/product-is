@@ -229,6 +229,9 @@
                                 <featureArtifactDef>
                                     org.wso2.carbon.identity.data.publisher.audit:org.wso2.carbon.identity.data.publisher.audit.user.operation.server.feature:${identity.data.publisher.audit.version}
                                 </featureArtifactDef>
+                                <featureArtifactDef>
+                                    org.wso2.carbon.identity.governance:org.wso2.carbon.identity.tenant.resource.manager.feature:${identity.governance.version}
+                                </featureArtifactDef>
 
                                 <!-- Authenticators -->
                                 <featureArtifactDef>
@@ -923,6 +926,10 @@
                                 <feature>
                                     <id>org.wso2.carbon.identity.application.authenticator.fido2.server.feature.group</id>
                                     <version>${identity.local.auth.fido.version}</version>
+                                </feature>
+                                <feature>
+                                    <id>org.wso2.carbon.identity.tenant.resource.manager</id>
+                                    <version>${identity.governance.version}</version>
                                 </feature>
                             </features>
                         </configuration>
